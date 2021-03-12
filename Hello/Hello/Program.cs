@@ -10,7 +10,10 @@ namespace Hello
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HelloWorld");
+            Student obj = new Student(1, "Nguyen Duc Hung");
+
+            Console.WriteLine(obj.id);
+            Console.WriteLine(obj.name);
         }
     }
 }
